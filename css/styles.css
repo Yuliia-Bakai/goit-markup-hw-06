@@ -852,6 +852,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
+  resize: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -864,6 +865,11 @@ img {
 .checkbox-label,
 .checkbox-part {
   line-height: 1.71;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
 }
 
 .checkbox-part {
